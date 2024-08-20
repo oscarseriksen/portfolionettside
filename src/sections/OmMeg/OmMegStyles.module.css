@@ -1,0 +1,19 @@
+.container {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px; /* Applies vertical spacing between direct children */
+  text-align: center;
+  margin: 0 auto;
+  position: relative; /* Ensures absolutely positioned children are relative to this container */
+}
+
+.description {
+  max-width: 80ch;
+}
+
+.dreamhack {
+  max-width: 400px;
+}
