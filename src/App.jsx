@@ -4,6 +4,8 @@ import Projects from "./sections/Projects/Projects";
 import Nav from "./sections/Nav/Nav";
 import OmMeg from "./sections/OmMeg/OmMeg";
 import Ferdigheter from "./sections/Ferdigheter/Ferdigheter";
+import Kontakt from "./sections/Kontakt/Kontakt";
+
 function App() {
   return (
     <>
@@ -12,6 +14,7 @@ function App() {
       <OmMeg />
       <Ferdigheter />
       <Projects />
+      <Kontakt />
     </>
   );
 }

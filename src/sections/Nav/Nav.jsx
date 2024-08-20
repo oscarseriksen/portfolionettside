@@ -12,7 +12,7 @@ const NavBar = () => {
           <a href="#ferdigheter">Ferdigheter</a>
         </li>
         <li>
-          <a href="#prosjekter">Prosjekter</a>
+          <a href="#projects">Prosjekter</a>
         </li>
         <li>
           <a href="#kontakt">Kontakt meg</a>

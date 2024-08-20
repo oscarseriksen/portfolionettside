@@ -23,7 +23,7 @@ export default function Ferdigheter() {
   return (
     <section id="ferdigheter" className={styles.container}>
       <h1>Mine ferdigheter</h1>
-      <p>
+      <p className={styles.description}>
         Språkene under er jeg kjent med. Noen bedre enn andre, men jeg har en
         god forståelse, og er lettlært innen alle disse. Utenom programmerings
         språk jeg kan, så er jeg godt kjent med Github, arbeide i scrum/Kanban,

@@ -4,10 +4,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50px; /* Applies vertical spacing between direct children */
+  gap: 50px;
   text-align: center;
   margin: 0 auto;
-  position: relative; /* Ensures absolutely positioned children are relative to this container */
+  position: relative;
 }
 
 .description {

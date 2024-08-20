@@ -1,0 +1,32 @@
+.container {
+  height: 100dvh;
+  padding-top: 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+  margin: 0 auto;
+
+  .kontaktTekst {
+    max-width: 20ch;
+  }
+  .kontakt {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+  }
+  .tlf {
+    display: flex;
+    gap: 15px;
+  }
+  .epost {
+    display: flex;
+    gap: 15px;
+  }
+  .lottieAnim {
+    width: 500px;
+    height: 500px;
+  }
+}
