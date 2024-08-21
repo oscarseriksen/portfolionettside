@@ -34,11 +34,7 @@ export default function OscarBilde() {
 
       <div className={styles.info}>
         <h1>
-          Oscar
-          <br />
-          Skauge
-          <br />
-          Eriksen
+          Oscar Skauge Eriksen
         </h1>
         <h2>Fullstack utvikler</h2>
         <span>
