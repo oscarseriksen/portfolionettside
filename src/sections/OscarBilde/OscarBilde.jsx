@@ -9,7 +9,6 @@ import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import CVPort from "../../assets/CVPort.pdf";
 import { useTheme } from "../../common/ThemeContext";
-import Animation from "./Lottie.jsx";
 
 export default function OscarBilde() {
   const { theme, toggleTheme } = useTheme();
