@@ -28,14 +28,9 @@ export default function OscarBilde() {
           onClick={toggleTheme}
         />
       </div>
-      <div className={styles.lottieAnim}>
-        <Animation></Animation>
-      </div>
 
       <div className={styles.info}>
-        <h1>
-          Oscar Skauge Eriksen
-        </h1>
+        <h1>Oscar Skauge Eriksen</h1>
         <h2>Fullstack utvikler</h2>
         <span>
           <a
