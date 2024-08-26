@@ -55,9 +55,6 @@ export default function OscarBilde() {
           fullstack/frontend/backend stillinger. Utforsk siden min for å bli
           bedre kjent med meg!
         </p>
-        <a href={CVPort} download>
-          <button className="Hover">Min CV</button>
-        </a>
       </div>
     </section>
   );
