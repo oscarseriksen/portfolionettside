@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Kontakt.module.css";
+import Animation from "./LottieBrev.jsx";
 
 export default function Kontakt() {
   return (
@@ -18,6 +19,9 @@ export default function Kontakt() {
           <p>Epost:</p>
           <a href="oscar.eriksen@gmail.com">oscar.eriksen@gmail.com</a>
         </div>
+      </div>
+      <div className={styles.lottieAnim}>
+        <Animation />
       </div>
     </section>
   );

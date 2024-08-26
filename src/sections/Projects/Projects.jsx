@@ -3,10 +3,11 @@ import styles from "./ProjectsStyles.module.css";
 import Paint from "../../assets/PaintJava.jpg";
 import Visma from "../../assets/Visma.jpg";
 import PacMan from "../../assets/PacManJava.jpg";
+import portbilde from "../../assets/portbilde.png";
 import ImageBox from "./ProjectImageBox.jsx";
 
 export default function Projects() {
-  const prosjektbilder = [Paint, Visma, PacMan];
+  const prosjektbilder = [Paint, Visma, PacMan, Visma, portbilde];
   const prosjeBeskrivelse = [
     "Etterligning av Paint. Laget som en obligatorisk oppgave i Java fag. Utviklet i Java med JavaFX, i samarbeid med min prosjektpartner.",
     "Etterligning av Pac-Man. Prosjektet var en obligatorisk oppgave i Java fag. Utviklet i Java med JavaFX, i samarbeid med min prosjektpartner.",

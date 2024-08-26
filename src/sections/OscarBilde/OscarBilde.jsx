@@ -9,6 +9,7 @@ import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import CVPort from "../../assets/CVPort.pdf";
 import { useTheme } from "../../common/ThemeContext";
+import Animation from "./Lottie.jsx";
 
 export default function OscarBilde() {
   const { theme, toggleTheme } = useTheme();
@@ -27,7 +28,9 @@ export default function OscarBilde() {
           onClick={toggleTheme}
         />
       </div>
-
+      <div className={styles.lottieAnim}>
+        <Animation></Animation>
+      </div>
       <div className={styles.info}>
         <h1>Oscar Skauge Eriksen</h1>
         <h2>Fullstack utvikler</h2>

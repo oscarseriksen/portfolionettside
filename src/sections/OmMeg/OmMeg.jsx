@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./OmMegStyles.module.css";
-import dreamhack from "../../assets/dreamhack.jpg";
+import bachelor from "../../assets/bachelorbilde.jpg";
 
 export default function OmMeg() {
   return (
@@ -18,8 +18,8 @@ export default function OmMeg() {
         gaming og henge med venner.
       </p>
       <img
-        src={dreamhack}
-        className={styles.dreamhack}
+        src={bachelor}
+        className={styles.bachelor}
         alt="Bilde av meg på dreamhack"
       />
       <div className={styles.bottomBar}></div>
