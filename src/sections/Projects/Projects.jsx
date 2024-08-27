@@ -10,7 +10,7 @@ import ImageBox from "./ProjectImageBox.jsx";
 export default function Projects() {
   const prosjektbilder = [Visma, PacMan, skiltsoker, Visma, Paint, portbilde];
   const prosjeBeskrivelse = [
-    "Bachelor prosjekt for Visma. En veldig god erfaring som ga meg mye god lærdom. Prosjektet gikk ut på å lage et API som genererer testdata, som Visma kan bruke for testing av sine databaser. Det ble også laget et grensesnitt for dette, og applikasjonen/API'et ble sikert med OAuth 2.0. Les mer om prosjektet på vår prosjektnettside i lenken under. <a href='https://gruppe5bop3000.wordpress.com/' target='_blank' rel='noopener noreferrer'>prosjektnettside</a>",
+    "Bachelor prosjekt for Visma. En veldig god erfaring som ga meg mye god lærdom. Prosjektet gikk ut på å lage et API som genererer testdata, som Visma kan bruke for testing av sine databaser. Det ble også laget et grensesnitt for dette, og applikasjonen/API'et ble sikert med OAuth 2.0. Les mer om prosjektet på vår prosjektnettside i lenken under. <a href='https://gruppe5bop3000.wordpress.com/'>prosjektnettside</a>",
     "Etterligning av Paint. Laget som en obligatorisk oppgave i Java fag. Utviklet i Java med JavaFX, i samarbeid med min prosjektpartner.",
     "Etterligning av Pac-Man. Prosjektet var en obligatorisk oppgave i Java fag. Utviklet i Java med JavaFX, i samarbeid med min prosjektpartner.",
   ];
