@@ -4,7 +4,7 @@ import Animation from "./LottieBrev.jsx";
 
 export default function Kontakt() {
   return (
-    <section className={styles.container}>
+    <section id="kontakt" className={styles.container}>
       <h1>Kontakt meg</h1>
       <p className={styles.kontaktTekst}>
         Tror du jeg er en fit som utvikler i din bedrift? Ring meg for en prat,
@@ -19,9 +19,6 @@ export default function Kontakt() {
           <p>Epost:</p>
           <a href="oscar.eriksen@gmail.com">oscar.eriksen@gmail.com</a>
         </div>
-      </div>
-      <div className={styles.lottieAnim}>
-        <Animation />
       </div>
     </section>
   );

@@ -6,6 +6,7 @@
   text-align: center;
   padding-top: 75px;
   min-height: 500px;
+  height: 100dvh;
 
   .bildet {
     max-width: 300px;
