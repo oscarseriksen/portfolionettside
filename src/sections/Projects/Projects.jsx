@@ -27,8 +27,7 @@ export default function Projects() {
       <h1>prosjekter</h1>
       <p className={styles.infoTekst}>
         Her kan du utforske noen av prosjektene jeg har laget/vært en del
-        av.Trykk på et prosjekt for å lese om det.{" "}
-        <a href="https://gruppe5bop3000.wordpress.com/">prosjektnettside</a>
+        av.Trykk på et prosjekt for å lese om det.
       </p>
       <ImageBox
         className={styles.bilder}
